@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Edit Profile</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/edit.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Profile</a>
+        </li>
+      </ul>
+    </div>
+    <!-- End navbar -->
+    <!-- Edit profile -->
+    <div class="container profile">
+      <form class="form-edit">
+        <div class="text-center mb-4">
+          <img class="mb-4" src="img/account.png">
+        </div>
+
+        <div class="form-label-group text-center">
+          <label>Upload Foto</label><br>
+          <input type="file" value="upload gambar">
+        </div>
+
+        <div class="form-label-group">
+          <label for="inputNama">Full Name</label>
+          <input type="text" id="inputNama" class="form-control" name="Nama Lengkap" required autofocus>
+        </div>
+
+        <div class="form-label-group">
+          <label for="inputUsername">Username</label>
+          <input type="text" id="inputUsername" class="form-control" name="username" required autofocus>
+        </div>
+
+        <div class="form-label-group">
+          <label for="inputEmail">Email</label>
+          <input type="email" id="inputEmail" class="form-control" name="email" required autofocus>
+        </div>
+
+        <div class="form-label-group">
+          <label for="inputGender">Sex</label><br>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input type="checkbox" input id="inputGender" class="form-check-input" value="">Laki-laki
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input type="checkbox" input id="inputGender" class="form-check-input" value="">Perempuan
+            </label>
+          </div>
+        </div>
+        <input type="submit" class="btn btn-primary tombol" value="Save">
+        <br><br>
+      </form>
+    </div>
+    <p class="mt-5 mb-3 text-muted text-center">&copy; KAWAN SINERBI 2020</p>
+    <!-- End edit -->
+
+
+</body>
+
+</html>
