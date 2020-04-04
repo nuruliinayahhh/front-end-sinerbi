@@ -1,36 +1,53 @@
-.container{
+.container {
   width: 800px;
   margin-top: 30px;
 }
-.form-edit {
-    width: 100%;
-    max-width: 700px;
-    padding: 15px;
-    margin: auto ;
-  }
 
-  .text-center img{
-    height: 100px;
-    width :100px;
-  }
+.text-center{
+  margin-top: 45px;
+}
 
-  .profile{
-    background-color:white;
-	border-radius: 10px;
-	box-shadow: 0px 3px 10px rgba(0,0,0,0.5);	/*x(kiri),y(atas), luas bayangan, warna */
-  }
+.text-center img {
+  height: 100px;
+  width: 100px;
+}
 
-  .form-label-group {
-    font-size: 12px;
-    color: #777;
+.col-lg {
+  padding: 20px;
+}
+.profile {
+  background-color: white;
+  border-radius: 10px;
+  height: 750px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+  /*x(kiri),y(atas), luas bayangan, warna */
+}
+
+.form-label-group {
+  font-size: 12px;
+  color: #777;
+}
+
+.tombol {
+  text-transform: uppercase;
+  border-radius: 20px;
+  width: 90px;
+  float: right;
+}
+
+.sex {
+  padding: 30px;
+}
+
+@media (min-width: 992px) {
+  .edit {
+    margin-top: 45px;
   }
-  .tombol{
-    text-transform: uppercase;
-	  border-radius: 20px;
-    width: 90px;
-    float: right;
+  .profile {
+    background-color: white;
+    border-radius: 10px;
+    height: 550px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    /*x(kiri),y(atas), luas bayangan, warna */
   }
-  .sex{
-    padding: 30px;
-  }
-  
+}
